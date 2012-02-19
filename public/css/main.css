@@ -16,7 +16,7 @@ header, footer, section, article {
 #by {
 	font-style: italic;
   margin-right: 5px;
-	font-size: 28px;
+	font-size: px;
 }
 #caption {
 	position: absolute;
@@ -25,6 +25,10 @@ header, footer, section, article {
 }
 #path {
 	color: #b53131;
+}
+#title {
+	font-family: 'Alegreya';
+	
 }
 .date {
   font-style: italic;
