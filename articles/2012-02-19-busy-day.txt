@@ -1,0 +1,6 @@
+--- 
+title: Busy day
+date: 19/02/2012
+
+Been tweaking the CSS and the layout files all day, and I've learned a lot so far. I also created a basic page for 'About Me' Next on the to-do list is to figure out how to clone this project to github and keep working on the style/layout. I'm hoping my web design class actually teaches me some useful CSS in the next two weeks, but only time will tell. 
+
