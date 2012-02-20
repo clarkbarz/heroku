@@ -8,14 +8,23 @@
     <title>Scott W Clark</title>
   </head>
   <body>
-  	<h1 id="title">Scott W Clark</h1> <br>
-  	<a href="mailto:scottclark591@gmail.com">
-  	scottclark591@gmail.com</a>
-    <section>
-      <%= yield %> 
-    </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+  	<h1 id="title"><a href="/">Scott W Clark</a></h1> <br>
+  	<div id="sections">
+  		<div id="sectionleft">
+  			<div class="links"><a href="/about/">About</a></div>
+  			<div class="links"><a href="twitter.com/clarkbarz">
+  			Twitter</a></div>
+  		</div>
+  		<div id="sectionright">
+  			<div class="links"><a href="mailto:scottclark591@gmail.com">
+  			Email:</a> scottclark591@gmail.com</div>
+  		</div>
+  	</div>	
+    <div id="content">
+      	<%= yield %> 
+    </div>
+    <footer id="footer">
+      	powered by <a href="http://cloudhead.io/toto">toto</a>
     </footer>
   </body>
 </html>
